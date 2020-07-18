@@ -13,6 +13,8 @@
 		442CA97B24C373C800186133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 442CA97A24C373C800186133 /* Assets.xcassets */; };
 		442CA97E24C373C800186133 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 442CA97D24C373C800186133 /* Preview Assets.xcassets */; };
 		442CA98124C373C800186133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442CA97F24C373C800186133 /* LaunchScreen.storyboard */; };
+		442CA98D24C3787A00186133 /* CicleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442CA98C24C3787A00186133 /* CicleImage.swift */; };
+		442CA98F24C37C0D00186133 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442CA98E24C37C0D00186133 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		442CA97D24C373C800186133 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		442CA98024C373C800186133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		442CA98224C373C800186133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		442CA98C24C3787A00186133 /* CicleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CicleImage.swift; sourceTree = "<group>"; };
+		442CA98E24C37C0D00186133 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				442CA97424C373C700186133 /* AppDelegate.swift */,
 				442CA97624C373C700186133 /* SceneDelegate.swift */,
 				442CA97824C373C700186133 /* ContentView.swift */,
+				442CA98E24C37C0D00186133 /* MapView.swift */,
 				442CA97A24C373C800186133 /* Assets.xcassets */,
+				442CA98C24C3787A00186133 /* CicleImage.swift */,
 				442CA97F24C373C800186133 /* LaunchScreen.storyboard */,
 				442CA98224C373C800186133 /* Info.plist */,
 				442CA97C24C373C800186133 /* Preview Content */,
@@ -148,6 +154,8 @@
 			files = (
 				442CA97524C373C700186133 /* AppDelegate.swift in Sources */,
 				442CA97724C373C700186133 /* SceneDelegate.swift in Sources */,
+				442CA98F24C37C0D00186133 /* MapView.swift in Sources */,
+				442CA98D24C3787A00186133 /* CicleImage.swift in Sources */,
 				442CA97924C373C700186133 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
